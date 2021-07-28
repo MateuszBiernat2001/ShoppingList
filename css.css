@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    background-color: rgb(142, 143, 143);
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: rgb(255, 249, 249);
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.shopping{
+    width: 80vw;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+.header{
+    padding: 40px;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.shoppingInput{
+    width: 80%;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+.alert{
+    margin-top: 25px;
+    color: crimson;
+    font-weight: 1200;
+}
+.addBtn{
+    padding: 10px 20px;
+    margin-top: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    transition: color .3s, background-color .3s;
+}
+.addBtn:hover{
+    color: green;
+    background-color: white;
+}
+.shoppingList{
+    padding: 20px 0;
+} 
+.shoppingList h3{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.shoppingList li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding-left: 20px;
+    text-align: left;
+    list-style: none;
+}
+.tools{
+    display: inline-block;
+  }
+  .tools button{
+    padding: 15px 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .complete{
+    color: green;
+  }
+  .delete{
+    color: #FF0066;
+  }
+.completed{
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    text-decoration: line-through;
+    font-style: italic;
+}
